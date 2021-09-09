@@ -24,4 +24,4 @@ seems much more equipped for making APIs as it is essentially a web framework.
     node ./server.js
 
 ### 4) Learn how to use it
-    See my (unprofessional but functional) walkthrough: (https://youtu.be/ykDoXPCilxQ?t=1223)
+    See my (unprofessional but functional) walkthrough: https://youtu.be/ykDoXPCilxQ?t=1223
