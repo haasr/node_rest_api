@@ -16,13 +16,13 @@ function getAllCars() {
 }
 
 // UPDATE
-function deleteCar(id) {
-    return knex('cars').where('id', id).del();
+function updateCar(id, car) {
+    return knex('cars').where('id', id).update(car);
 }
 
 // DELETE
-function updateCar(id, car) {
-    return knex('cars').where('id', id).update(car);
+function deleteCar(id) {
+    return knex('cars').where('id', id).del();
 }
 
 module.exports = {
